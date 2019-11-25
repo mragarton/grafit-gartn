@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "start": "concurrently --kill-others \"node gartn.js\" \"node gartnExpress.js\""
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "request-promise-native": "^1.0.8",
+    "request": "^2.88.0",
+    "sqlite": "^3.0.3",
+    "moment": "^2.24.0",
+    "jimp": "^0.6.4",
+    "pastebin-js": "^1.0.3",
+    "lodash": "^4.17.15",
+    "kaori": "^1.2.0",
+    "dogeify-js": "^1.2.0",
+    "imgur": "^0.3.1",
+    "fortnite": "^4.3.2",
+    "brawlhalla-api": "^3.326.0",
+    "random.dog": "^1.0.7",
+    "bot-util": "^0.0.7",
+    "giphy-api": "^2.0.1",
+    "node-osu": "^1.3.3",
+    "xml-js": "^1.6.11",
+    "brawlstars": "^1.2.4",
+    "twitch-get-stream": "^0.5.0",
+    "node-opus": "^0.3.2",
+    "express": "^4.16.4",
+    "concurrently": "^5.0.0",
+    "dblapi.js": "^2.3.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
