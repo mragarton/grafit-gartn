@@ -1,8 +1,8 @@
 [![Support Server](https://i.imgur.com/3CDbHx5.png)](https://discord.gg/C83h4Sk)
 
-# Feltöltés alatt!
+# Setup
+- A hibamentes működés érdekében használd a `package.json` fájlban megjelölt modul verziókat.
 
-- További információért látogass el a Discord Support szerverünkre!
+# Kérdésed akadt?
 
-# Hamarosan...
-- Feltöltés alatt.
+- További információért látogass el a Discord Support szerverünkre! (https://discord.gg/C83h4Sk)
