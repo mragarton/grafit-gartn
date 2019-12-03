@@ -216,6 +216,7 @@ Bot fejlesztője: *${client.users.get(cfg.defaults.ownerID) ? client.users.get(c
     meNeededPerms: [],
     type: 'everyone'
   },
+  /*
   'aeb99': {
     cmd: async message => {
       const msg = await message.channel.send('`Lekérdezés...`').catch(_ => { });
@@ -230,6 +231,7 @@ Bot fejlesztője: *${client.users.get(cfg.defaults.ownerID) ? client.users.get(c
     meNeededPerms: [],
     type: 'everyone'
   },
+  */
   'flipcoin': {
     cmd: async message => {
       const arr = [{ text: 'Fej', img: cfg.images.fej }, { text: 'Írás', img: cfg.images.iras }];
@@ -1250,6 +1252,7 @@ Indok: ${reason}`);
     meNeededPerms: [],
     type: 'dev'
   },
+  /*
   'aebtop': {
     cmd: async (message, args) => {
       const msg = await message.channel.send('`Lekérdezés...`').catch(_ => { });
@@ -1266,6 +1269,7 @@ Indok: ${reason}`);
     meNeededPerms: [],
     type: 'dev'
   }
+  */
 };
 
 const random = array => {
