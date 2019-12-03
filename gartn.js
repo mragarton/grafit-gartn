@@ -127,7 +127,7 @@ Bot fejlesztője: *${client.users.get(cfg.defaults.ownerID) ? client.users.get(c
 **Regisztrált:** ${moment(member.user.createdAt).format(`YYYY/MM/DD, HH:mm:ss`)}
 **Avatar link:** [\`🌐Megnyitás böngészőben\`](${member.user.displayAvatarURL})
 **Státusz:** ${member.user.presence.status ? status[member.user.presence.status] : 'nem olvasható'}
-**Elfoglaltság:** ${member.user.presence.game ? member.user.presence.game.name : 'nincs'}`, true);
+**Elfoglaltság:** ${member.user.presence.game ? member.user.presence.game.name === 'Custom Status'? `CStatus: ${member.user.presence.game.state}`: member.user.presence.game.name : 'nincs'}`, true);
 
       embed.addField('❯ Tag információ', `**Role:** ${member.roles.map(r => `\`${r.name}\``).join(' ')}
 **Csatlakozott:** ${moment(member.joinedAt).format(`YYYY/MM/DD, HH:mm:ss`)}
